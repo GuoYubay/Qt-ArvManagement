@@ -38,7 +38,7 @@ int main(int argc, char* argv[]) {
     userModel.setcuruser("admin");
     engine.rootContext()->setContextProperty("UserModel", &userModel);
 
-    // 加载登陆界面
+    // 加载登陆界面   写主页面先把登陆界面注释掉 111
    // engine.load(QUrl(QStringLiteral("qrc:/View/LoginPage/LoginPage.qml")));
     // 加载主界面
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
