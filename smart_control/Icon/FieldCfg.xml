@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+    <RECORD ID = 'F0000' FieldName='CardID' FieldShowName='身份证号'  DBDataType='String' IsKeyWord='1' IsFieldVisible='1' Remark='个人身份证明，唯一' SerialNo='1' />
+    <RECORD ID = 'F0001' FieldName='Name'   FieldShowName='姓名'  DBDataType='String' IsKeyWord='1' IsFieldVisible='1' Remark='身份证对应姓名' SerialNo='2' />
+    <RECORD ID = 'F0002' FieldName='HomeTown' FieldShowName='籍贯'  DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='' SerialNo='3' />
+    <RECORD ID = 'F0003' FieldName='Unit' FieldShowName='所属部门'  DBDataType='String' IsKeyWord='1' IsFieldVisible='1' Remark='具体岗位所属部门' SerialNo='4' />
+    <RECORD ID = 'F0004' FieldName='Post' FieldShowName='职务'  DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='行政职务' SerialNo='5' />
+    <RECORD ID = 'F0005' FieldName='ProfTitle' FieldShowName='职称'  DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='技术及行政职称' SerialNo='6' />
+    <RECORD ID = 'F0006' FieldName='RfidLabel' FieldShowName='RFID标签' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='' SerialNo='7' />
+    <RECORD ID = 'F0007' FieldName='TransferReason' FieldShowName='转入原因' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='' SerialNo='8' />
+    <RECORD ID = 'F0008' FieldName='ReportUnit' FieldShowName='上报单位' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='' SerialNo='9' />
+    <RECORD ID = 'F0009' FieldName='ArvNature' FieldShowName='档案性质' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='' SerialNo='10' />
+    <RECORD ID = 'F000A' FieldName="PreviewDoc" FieldShowName="档案预览"  DBDataType='String' IsKeyWord="0" IsFieldVisible='0' Remark="档案电子版链接地址" SerialNo="11" />
+    <RECORD ID = 'F000B' FieldName='CreateUser' FieldShowName='经办人' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='档案管理人员' SerialNo='12' />
+    <RECORD ID = 'F000C' FieldName='ReceiptDate' FieldShowName='接收时间' DBDataType='DateTime' IsKeyWord='1' IsFieldVisible='1' Remark='人事档案入单位时间' SerialNo='13' />
+    <RECORD ID = 'F000D' FieldName='ArvStatus' FieldShowName='档案状态' DBDataType='String' IsKeyWord='0' IsFieldVisible='0' Remark='档案当前状态：在库、借阅、发送' SerialNo='14' />
+    <RECORD ID = 'F000E' FieldName='GroupNo' FieldShowName='柜号' DBDataType='Int' IsKeyWord='0'  IsFieldVisible='1' Remark='存储设备号' SerialNo='15' />
+    <RECORD ID = 'F000F' FieldName='LayerNo' FieldShowName='层号' DBDataType='Int' IsKeyWord='0'  IsFieldVisible='1' Remark='存储设备层号' SerialNo='16' />
+    <RECORD ID = 'F0010' FieldName='CellNo' FieldShowName='列号' DBDataType='Int' IsKeyWord='0' IsFieldVisible='1' Remark='存储设备节号' SerialNo='17' />
+    <RECORD ID = 'F0011' FieldName='SendReason' FieldShowName='发送缘由' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='退休、调动、离职等' SerialNo='18' />
+    <RECORD ID = 'F0012' FieldName='SendDest' FieldShowName='去向单位' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='接收发送档案的单位' SerialNo='19' />
+    <RECORD ID = 'F0013' FieldName='Lender' FieldShowName='借阅人' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='档案借阅者' SerialNo='20' />
+    <RECORD ID = 'F0014' FieldName='LenderDept' FieldShowName='所属部门' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='档案借阅者所在部门' SerialNo='21' />
+    <RECORD ID = 'F0015' FieldName='LendDate' FieldShowName='借阅日期' DBDataType='DateTime' IsKeyWord='0' IsFieldVisible='1' Remark='借阅时间' SerialNo='22' />
+    <RECORD ID = 'F0016' FieldName='ReturnDeadline' FieldShowName='应还时间' DBDataType='DateTime' IsKeyWord='0' IsFieldVisible='1' Remark='归还时间' SerialNo='23' />
+    <RECORD ID = 'F0017' FieldName='LendExecutor' FieldShowName='经办人' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='本次借阅经办人员' SerialNo='24' />
+    <RECORD ID = 'F0018' FieldName='Returner' FieldShowName='归还人' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='归还档案人' SerialNo='25' />
+    <RECORD ID = 'F0019' FieldName='ReturnerDept' FieldShowName='所属部门' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='档案归还者所在部门' SerialNo='26' />
+    <RECORD ID = 'F001A' FieldName='ReturnDate' FieldShowName='归还日期' DBDataType='DateTime' IsKeyWord='0' IsFieldVisible='1' Remark='归还时间' SerialNo='27' />
+    <RECORD ID = 'F001B' FieldName='ReturnExecutor' FieldShowName='经办人' DBDataType='String' IsKeyWord='0' IsFieldVisible='1' Remark='本次归还经办人员' SerialNo='28' />
+</RECORDS>

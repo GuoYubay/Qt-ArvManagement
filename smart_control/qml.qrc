@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>View/LoginPage/LoginPage.qml</file>
+        <file>View/Custom/Button_Image.qml</file>
+        <file>View/Custom/ComboxPoup.qml</file>
+        <file>View/Custom/ComboxTextField.qml</file>
+        <file>View/Custom/CommonCombox.qml</file>
+        <file>View/Custom/DatePicker.qml</file>
+        <file>View/Custom/PageNavigationBar.qml</file>
+        <file>View/Custom/ToolDropDownFrame.qml</file>
+        <file>View/Custom/QChart/QChart.js</file>
+        <file>View/Custom/QChart/QChart.qml</file>
+        <file>View/Custom/QChart/QChartGallery.js</file>
+        <file>View/Custom/QChart/TestQChart.qml</file>
+        <file>View/Pane/TitlePane.qml</file>
+        <file>View/Pane/LeftPane.qml</file>
+        <file>View/Pane/BottomPane.qml</file>
+        <file>View/Pane/RightPane.qml</file>
+    </qresource>
+    <qresource prefix="/View"/>
+</RCC>
