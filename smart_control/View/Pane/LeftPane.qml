@@ -127,7 +127,7 @@ Rectangle{
                     listview.currentIndex = index
                     if(isParent){
                         _image.isCollapsed = !_image.isCollapsed
-                        MenuModel.refresh(group)
+                        MenuModel.refresh(group)    //刷新组可见性
                     }else{
                         //显示相应界面.
                        // ToolModel.refresh(model.name)

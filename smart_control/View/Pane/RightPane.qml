@@ -2,6 +2,7 @@
 import QtQuick.Controls 1.4
 import QtQuick.Controls.Styles 1.4
 import QtGraphicalEffects 1.14
+import QtQml 2.14
 
 Item {
     property bool tabViewVisible:true
@@ -65,7 +66,7 @@ Item {
                 color: styleData.selected ?  "#D3D3D3" : (styleData.hovered ? "aliceblue" : Qt.lighter("#D3D3D3"))
                 border.width: 2
                 border.color: "#D3D3D3"
-                implicitWidth: Math.max(text.width + 4, 80)
+                implicitWidth: Math.max(text.width + 30, 80)
                 implicitHeight: 25
                 radius: 7
                 Text {
@@ -133,4 +134,34 @@ Item {
           }
        }
      }
+    //添加左侧导航栏相应的标签窗口
+    function addTabs(source,name)
+    {
+      var i = 0
+       if (name.length >= 0)
+       {
+           //tab若已存在则不再创建，选中要显示tab
+            for ( i = 0; i < _tabView.count; ++i)
+            {
+               var obj = _tabView.getTab(i);
+               if(name===obj.title)
+               {
+                _tabView.currentIndex=i
+                return
+               }
+            }
+            //若不存在则创建一个新的标签
+            if(source!==null)
+            {
+               var compoment = Qt.createComponent(source);
+               _tabView.insertTab(_tabView.count,name,compoment);
+              // console.log("obj....."+_tabView.count)
+               _tabView.currentIndex = _tabView.count-1;
+               //var obj = _tabView.getTab(_tabView.currentIndex);
+            }
+           else{
+               console.log("TabView Source is null")
+            }
+       }
+    }
 }

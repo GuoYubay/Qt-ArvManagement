@@ -127,6 +127,10 @@ debug/qrc_qml.cpp: ../smart_control/qml.qrc \
 		../smart_control/View/Pane/TitlePane.qml \
 		../smart_control/View/Pane/BottomPane.qml \
 		../smart_control/View/Pane/RightPane.qml \
+		../smart_control/View/Contents/ArvManager/ArvReturn.qml \
+		../smart_control/View/Contents/ArvManager/ArvRecv.qml \
+		../smart_control/View/Contents/ArvManager/ArvOut.qml \
+		../smart_control/View/Contents/ArvManager/ArvLend.qml \
 		../smart_control/View/Custom/CommonCombox.qml \
 		../smart_control/View/Custom/ComboxTextField.qml \
 		../smart_control/View/Custom/ToolDropDownFrame.qml \

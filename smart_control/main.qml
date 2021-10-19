@@ -60,6 +60,7 @@ Window {
             visible: true
             onLoadContent: {
                 rightpane.addTabs("qrc:/View/Contents/" + path,name)
+               // console.log("qrc:/View/Contents/" + path)
                 rightpane.tabViewVisible=true
                 rightpane.tabVisible=true
             }
@@ -88,7 +89,7 @@ Window {
                      left: rightpane.left
                  }
 
-                 backgroundColor: parent.color
+                 //backgroundColor: parent.color
                  width: 10
                  height: 70
                  Image {

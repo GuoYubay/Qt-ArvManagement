@@ -2,9 +2,9 @@
 
 #include <QAbstractTableModel>
 #include <QDateTime>
+#include <QDebug>
 #include <QSqlRecord>
 #include <QString>
-#include <QDebug>
 
 UserModel::UserModel(QObject* parent) : QAbstractListModel(parent) {
     ReadDataFromSQLite();
@@ -82,7 +82,6 @@ void UserModel::ReadDataFromSQLite() {
                 ChildData.userrole = list1.at(4).toString();
 
                 m_data.push_back(ChildData);
-
             }
             beginInsertRows(QModelIndex(), 0, static_cast<int>(m_data.size()));
             endInsertRows();
@@ -92,7 +91,7 @@ void UserModel::ReadDataFromSQLite() {
 
 QString UserModel::curuser() { return CurUser; }
 
-void UserModel::setcuruser(QString user){
+void UserModel::setcuruser(QString user) {
     CurUser = user;
     QString role;
     for (int i = 0; i < m_data.size(); i++) {
@@ -104,6 +103,4 @@ void UserModel::setcuruser(QString user){
     CurRole = role;
     emit soleChanged();
 }
-QString UserModel::cursole(){
-    return CurRole;
-}
+QString UserModel::cursole() { return CurRole; }

@@ -17,6 +17,10 @@
         <file>View/Pane/LeftPane.qml</file>
         <file>View/Pane/BottomPane.qml</file>
         <file>View/Pane/RightPane.qml</file>
+        <file>View/Contents/ArvManager/ArvRecv.qml</file>
+        <file>View/Contents/ArvManager/ArvOut.qml</file>
+        <file>View/Contents/ArvManager/ArvLend.qml</file>
+        <file>View/Contents/ArvManager/ArvReturn.qml</file>
     </qresource>
     <qresource prefix="/View"/>
 </RCC>
